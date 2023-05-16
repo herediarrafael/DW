@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Demostración de como acceder a un elemento &lt;hgroup&gt;</h3>
+
+<hgroup id="miHgroup">
+  <h1>Bienvenido a mi Ejemplo</h1>
+  <h2>Aprende HTML</h2>
+</hgroup>
+
+<p>Haga clic en el botón para obtener el contenido del elemento hgroup.</p>
+
+<button onclick="miFuncion()">Presióname!!</button>
+
+<p id="demo"></p>
+
+<script>
+function miFuncion() {
+  var x = document.getElementById("miHgroup").innerHTML;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

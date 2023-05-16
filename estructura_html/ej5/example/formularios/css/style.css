@@ -1,0 +1,242 @@
+.dark{
+  background-color: black;
+  text-align: center;
+}
+.contenedor-grid-1 {
+  display: grid;
+  grid-template-columns: auto;
+}
+.contenedor-grid-1 > div {
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.contenedor-grid > div {
+  line-height: 225px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.elemento-exp {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+/* Página Tributo de Armando*/
+.main{
+  background-color: rgb(0, 0, 0);
+  height: 150px;
+  text-align: center;
+}
+.main h1{
+  color: rgb(6, 10, 10);
+  font-size: 50px;
+}
+.figure{
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+}
+.figure img{
+  max-width: 100%;
+  height: auto;
+}
+.texto{
+  text-align: justify;
+  width: 500px;
+}
+.seccion{
+  display: flex;
+  justify-content: center;
+}
+/*Página de encuestas*/
+.enc{
+  background-color: black;
+  background-image: url("https://picsum.photos/id/911/1920/1080");
+  max-width: 100%;
+  max-height: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.terms{
+  background-color: black;
+  background-image: url("https://picsum.photos/id/769/1920/1080");
+}
+.cont_e{
+  width: 800px;
+  background-color: black;
+  opacity: 50%;
+}
+.divCont{
+  width: 60%;
+  max-width: 60%;
+  max-height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  font-size: x-large;
+}
+.bg_div{
+  background-color: rgba(0, 0, 0, 0.752);
+  border-radius: 20px;
+  text-align: center;
+  color: beige;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inline{
+  display: flex;
+  max-width: 100%;
+  max-height: min-content;
+}
+.form_i{
+  width: 50%;
+  text-align: left;
+
+}
+.sub{
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: end;
+}
+.sub button{
+  width: 90px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #a18cd1;
+  font-weight: bold;
+  color: white;
+}
+.subt{
+  text-align: start;
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 60%;
+}
+/*.inp{
+  height: 30px;
+  border-radius: 10%;
+  text-size-adjust: unset;
+}*/
+input[type=text]{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  border: 2px solid purple;
+  color: #a18cd1;
+  width: 230px;
+  height: 30px;
+  padding-left: 10px;
+  }
+  input[type=email]{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    color: #a18cd1;
+    width: 81%;
+    height: 30px;
+    padding-left: 10px;
+    }
+  
+input[type=text]:focus {
+  outline: none;
+  border: 3px solid #a18cd1;
+  color: rgb(28, 28, 28);
+  font-size: small;
+
+}
+input[type=email]:focus {
+  outline: none;
+  border: 3px solid #a18cd1;
+  color: rgb(28, 28, 28);
+  font-size: small;
+}
+input[type=password]{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  border: 2px solid purple;
+  color: #a18cd1;
+  width: 81%;
+  height: 30px;
+  padding-left: 10px;
+  }
+
+input[type=password]:focus {
+outline: none;
+border: 3px solid #a18cd1;
+color: rgb(28, 28, 28);
+font-size: small;
+
+}
+.lab{
+  padding-top: 20px;
+  padding-bottom: 9px;
+}
+.radio{
+  text-align: left;
+}
+input[type='radio']{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  position: relative;
+  background-color: lightgrey;
+  background-clip: content-box;
+  display: inline-block;
+  content: 'Femenino';
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked{
+  background-color: purple;
+}
+.tyc{
+  padding: auto;
+  font-size: medium;
+  text-align: left;
+}
+a{
+  color: #fcfcfc;
+}
+a:hover{
+  color: #a18cd1;
+}
+input[type='checkbox']{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  position: relative;
+  background-color: lightgrey;
+  visibility: visible;
+  border: 2px solid white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+input[type='checkbox']:checked{
+  background-color: purple;
+}
+.txt_tyc{
+  font-size: large; 
+  color: beige;
+  font-family: 'Times New Roman', Times, serif; 
+  font-style: oblique; 
+  width: 60%;
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align: justify;
+}
