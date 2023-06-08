@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+    <style>
+        .logocdmx{
+            /*width: 204px;*/
+            /*height: 37px;*/
+            border-bottom: 1px solid;
+            /*padding-left: 20px;*/
+            /*margin: 0px 100px;}*/
+        }
+
+        .logocdmx img{
+            width: 204px;
+            height: 37px;
+        }
+
+        .gridcontainer{
+            display: grid;
+            grid-template-columns: auto;
+            /*background-color: red;*/
+            background-image: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);
+
+            /*padding: 5px;*/
+        }
+
+        .griditem{
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 08);
+            padding: 20px;
+            font-size: 30px;
+            /*text-align: center;*/
+        }
+        
+        #cero{
+            grid-column: 1 / 2;
+        }
+
+        #uno{
+            grid-column: 2 / 4;
+            text-align: left;
+        }
+
+        #dos{
+            grid-column: 2 / 3;
+        }
+
+        #tres{
+            grid-column: 3 / 4;
+        }
+
+        #cuatro{
+            grid-column: 3 / 4;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logocdmx">
+            <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/assets/images/logo.svg" alt="">
+        </div>
+        <nav>
+            <a id="Residentes">Residentes</a>
+            <a id="Negocios">Negocios</a>
+            <a id="Visitantes">Visitantes</a>
+            <a id="Gobierno">Gobierno</a>
+        </nav>
+    </header>
+    <main>
+        <div class="gridcontainer">
+            <span id="uno" class="">APRENDE A PROGRAMAR</span>
+            <span id="dos" class="">EN LAS</span>
+            <span id="tres" class="">ESCUELAS DE CODIGO</span>
+            <span id="cuatro" class="">DE LA CDMX</span>
+
+        </div>
+    </main>
+</body>
+</html>
